@@ -22,7 +22,7 @@ export const authenticateWithFirebase = asyncHandler(async (req, res) => {
 
     if (!user) {
       user = await User.create({
-        firebaseUidrole:'user',
+        firebaseUidrole:decoded.uid,
         name,
         email,
         role: "user"
