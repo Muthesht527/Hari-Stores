@@ -25,14 +25,21 @@ export const authenticateWithFirebase = asyncHandler(async (req, res) => {
         firebaseUid: decoded.uid,
         name,
         email,
-        phoneNumber,
+        role: "user"
       });
     } else {
-      user.name = name;
-      user.email = email;
-      user.phoneNumber = phoneNumber;
+      // Only update if changed (optional but clean)
+      if (user.name !== name) user.name = name;
+      if (user.email !== email) user.email = email;
+      if (phoneNumber && user.phoneNumber !== phoneNumber) {
+        user.phoneNumber = phoneNumber;
+      }
+
       await user.save();
     }
+
+    // Always use latest DB state
+    user = await User.findById(user._id);
 
     const token = generateToken(user);
 
