@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.env
+backend/.local-secrets.txt
+backend/uploads/*
+!backend/uploads/.gitkeep

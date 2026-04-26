@@ -1,0 +1,22 @@
+[
+  {
+    "_id": { "$oid": "68105b590000000000000001" },
+    "firebaseUid": "seed-admin-uid",
+    "name": "Hari Admin",
+    "email": "admin@harienterprises.local",
+    "phoneNumber": "+919876543210",
+    "role": "admin",
+    "createdAt": { "$date": "2026-04-26T08:00:00.000Z" },
+    "updatedAt": { "$date": "2026-04-26T08:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "68105b590000000000000002" },
+    "firebaseUid": "seed-user-uid",
+    "name": "Meena Customer",
+    "email": "meena@harienterprises.local",
+    "phoneNumber": "+919812345678",
+    "role": "user",
+    "createdAt": { "$date": "2026-04-26T08:10:00.000Z" },
+    "updatedAt": { "$date": "2026-04-26T08:10:00.000Z" }
+  }
+]

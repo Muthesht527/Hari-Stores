@@ -1,0 +1,82 @@
+[
+  {
+    "_id": { "$oid": "68105b590000000000000101" },
+    "name": "Premium Basmati Rice 10kg",
+    "price": 1299,
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=900&q=80",
+    "description": "Long-grain aromatic basmati rice ideal for biryani, pulao, and family meals.",
+    "stock": 45,
+    "createdAt": { "$date": "2026-04-26T08:20:00.000Z" },
+    "updatedAt": { "$date": "2026-04-26T08:20:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "68105b590000000000000102" },
+    "name": "Cold Pressed Groundnut Oil 5L",
+    "price": 1149,
+    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=900&q=80",
+    "description": "Traditional cold pressed oil with a rich aroma for everyday South Indian cooking.",
+    "stock": 28,
+    "createdAt": { "$date": "2026-04-26T08:21:00.000Z" },
+    "updatedAt": { "$date": "2026-04-26T08:21:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "68105b590000000000000103" },
+    "name": "A2 Cow Ghee 1L",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1626200419199-391ae4be7a41?auto=format&fit=crop&w=900&q=80",
+    "description": "Golden clarified butter with a smooth texture for sweets, rotis, and rice dishes.",
+    "stock": 36,
+    "createdAt": { "$date": "2026-04-26T08:22:00.000Z" },
+    "updatedAt": { "$date": "2026-04-26T08:22:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "68105b590000000000000104" },
+    "name": "Toor Dal 5kg Family Pack",
+    "price": 799,
+    "image": "https://images.unsplash.com/photo-1515543904379-3d757afe72e0?auto=format&fit=crop&w=900&q=80",
+    "description": "Protein-rich toor dal cleaned and packed for daily sambar and dal preparations.",
+    "stock": 52,
+    "createdAt": { "$date": "2026-04-26T08:23:00.000Z" },
+    "updatedAt": { "$date": "2026-04-26T08:23:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "68105b590000000000000105" },
+    "name": "Organic Jaggery Powder 2kg",
+    "price": 299,
+    "image": "https://images.unsplash.com/photo-1615486363973-f79f785d19eb?auto=format&fit=crop&w=900&q=80",
+    "description": "Natural jaggery powder made from sugarcane juice with no artificial additives.",
+    "stock": 64,
+    "createdAt": { "$date": "2026-04-26T08:24:00.000Z" },
+    "updatedAt": { "$date": "2026-04-26T08:24:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "68105b590000000000000106" },
+    "name": "Masala Combo Box",
+    "price": 449,
+    "image": "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=900&q=80",
+    "description": "A convenient spice combo including turmeric, chilli, coriander, and garam masala.",
+    "stock": 31,
+    "createdAt": { "$date": "2026-04-26T08:25:00.000Z" },
+    "updatedAt": { "$date": "2026-04-26T08:25:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "68105b590000000000000107" },
+    "name": "Filter Coffee Blend 1kg",
+    "price": 699,
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80",
+    "description": "Strong South Indian filter coffee blend with balanced chicory for daily brewing.",
+    "stock": 40,
+    "createdAt": { "$date": "2026-04-26T08:26:00.000Z" },
+    "updatedAt": { "$date": "2026-04-26T08:26:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "68105b590000000000000108" },
+    "name": "Stainless Steel Lunch Carrier",
+    "price": 599,
+    "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=900&q=80",
+    "description": "Three-tier lunch carrier for office and school use with durable steel finish.",
+    "stock": 18,
+    "createdAt": { "$date": "2026-04-26T08:27:00.000Z" },
+    "updatedAt": { "$date": "2026-04-26T08:27:00.000Z" }
+  }
+]

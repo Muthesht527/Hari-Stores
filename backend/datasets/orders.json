@@ -1,0 +1,73 @@
+[
+  {
+    "_id": { "$oid": "68105b590000000000000201" },
+    "userId": { "$oid": "68105b590000000000000002" },
+    "items": [
+      {
+        "productId": { "$oid": "68105b590000000000000101" },
+        "name": "Premium Basmati Rice 10kg",
+        "price": 1299,
+        "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=900&q=80",
+        "quantity": 1
+      },
+      {
+        "productId": { "$oid": "68105b590000000000000103" },
+        "name": "A2 Cow Ghee 1L",
+        "price": 899,
+        "image": "https://images.unsplash.com/photo-1626200419199-391ae4be7a41?auto=format&fit=crop&w=900&q=80",
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 2198,
+    "razorpayOrderId": "order_seed_paid_001",
+    "paymentId": "pay_seed_paid_001",
+    "orderStatus": "paid",
+    "createdAt": { "$date": "2026-04-26T09:00:00.000Z" },
+    "updatedAt": { "$date": "2026-04-26T09:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "68105b590000000000000202" },
+    "userId": { "$oid": "68105b590000000000000002" },
+    "items": [
+      {
+        "productId": { "$oid": "68105b590000000000000104" },
+        "name": "Toor Dal 5kg Family Pack",
+        "price": 799,
+        "image": "https://images.unsplash.com/photo-1515543904379-3d757afe72e0?auto=format&fit=crop&w=900&q=80",
+        "quantity": 2
+      },
+      {
+        "productId": { "$oid": "68105b590000000000000107" },
+        "name": "Filter Coffee Blend 1kg",
+        "price": 699,
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80",
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 2297,
+    "razorpayOrderId": "order_seed_shipped_002",
+    "paymentId": "pay_seed_shipped_002",
+    "orderStatus": "shipped",
+    "createdAt": { "$date": "2026-04-26T09:15:00.000Z" },
+    "updatedAt": { "$date": "2026-04-26T09:15:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "68105b590000000000000203" },
+    "userId": { "$oid": "68105b590000000000000002" },
+    "items": [
+      {
+        "productId": { "$oid": "68105b590000000000000102" },
+        "name": "Cold Pressed Groundnut Oil 5L",
+        "price": 1149,
+        "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=900&q=80",
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 1149,
+    "razorpayOrderId": "order_seed_delivered_003",
+    "paymentId": "pay_seed_delivered_003",
+    "orderStatus": "delivered",
+    "createdAt": { "$date": "2026-04-26T09:30:00.000Z" },
+    "updatedAt": { "$date": "2026-04-26T09:30:00.000Z" }
+  }
+]
