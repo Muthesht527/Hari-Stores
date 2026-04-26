@@ -28,7 +28,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: "https://hari-stores.vercel.app",
+    origin: process.env.FRONTEND_URL,
     credentials: true,
   })
 );
