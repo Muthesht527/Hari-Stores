@@ -29,7 +29,7 @@ const startServer = async () => {
   try {
     // Connect to MongoDB first
     await connectDB();
-    console.log("✓ Database connected successfully");
+    console.log("✓ Database connected successfully\n");
 
     app.use(
       cors({
@@ -60,7 +60,7 @@ const startServer = async () => {
       console.log(`✓ Server running on port ${PORT}`);
     });
   } catch (error) {
-    console.error("Failed to start server:", error.message);
+    console.error("\n✗ Failed to start server:", error.message);
     process.exit(1);
   }
 };
